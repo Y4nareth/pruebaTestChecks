@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prueba de selección múltiple</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Múltiple selección</h1>
+            <div class="quiz">
+                <h2 id="question">Pregunta 1</h2>
+                <form>
+                    <div class="control" id="control">
+                        <label class="btn">
+                            <input required type="checkbox" class="radio-dot" name="group1" value="1">
+                            <span class="radio-label-text">Opción 1</span>
+                        </label>
+                        <label class="btn">
+                            <input required type="checkbox" class="radio-dot" name="group2" value="2">
+                            <span class="radio-label-text">Opción 2</span>
+                        </label>
+                        <label class="btn">
+                            <input required type="checkbox" class="radio-dot" name="group3" value="3">
+                            <span class="radio-label-text">Opción 3</span>
+                        </label>
+                        <label class="btn">
+                            <input required type="checkbox" class="radio-dot" name="group4" value="5">
+                            <span class="radio-label-text">Opción 4</span>
+                        </label>
+                    </div>
+                </form>
+                <button id="validate-btn">Confirmar</button>
+                <button id="next-btn" type="submit">
+                    <span>Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
